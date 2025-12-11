@@ -4,14 +4,24 @@
     margin: 0%;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+}
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 4ch;
+    padding-right: 4ch;
+    padding-top: 2ch;
+    padding-bottom: 2ch;
 }
 nav img{
     height: 38px;
     width: auto;
+    display: flex;
+    align-items: center;
 }
 nav ul{
     display: flex;
@@ -26,4 +36,25 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color:blue;
+}
+header img{
+    object-fit: cover;
+}
+
+header form{
+    display: flex;
+    gap: 0;
+    background-color: #337abe;
+
+}
+header form input{
+    color:#337abe ;
+}
+header form button img{
+    background-color: #337abe;
+    
+}
+.top img{
+    object-fit: right;
+    width:100vh;
 }
